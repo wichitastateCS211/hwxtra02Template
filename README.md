@@ -23,6 +23,6 @@ and the average word length. It will be written in python.
 ## Hints
 
 ## Reminders
-- Name your file *wsuid*\_hwXX.cpp
+- Name your file *wsuid*\_hwxtra02.py
 - You are required to place a comment block at the top of the file. Refer to the Coding Guidelines
 handout.
