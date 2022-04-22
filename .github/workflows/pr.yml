@@ -10,9 +10,15 @@ jobs:
         run: echo "Submitted at " $(date)
       - name: List files
         run: ls -alh
-      - name: Compile Code
-        run: ./.github/scripts/compile_script.sh "${pwd}"
+      - name: Run program (HERBERT)
+        run: python3 $(find . -name '*.py' | head -n 1) input.HERBERT
         shell: bash
-      - name: Run program
-        run: ./submission
+      - name: Run program (POE)
+        run: python3 $(find . -name '*.py' | head -n 1) input.POE
+        shell: bash
+      - name: Run program (THOMAS)
+        run: python3 $(find . -name '*.py' | head -n 1) input.THOMAS
+        shell: bash
+      - name: Run program (SHELLEY)
+        run: python3 $(find . -name '*.py' | head -n 1) input.SHELLEY
         shell: bash
