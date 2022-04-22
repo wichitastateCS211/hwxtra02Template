@@ -34,6 +34,7 @@ The average word length is 3.9 letters
   - Since this is a python assignment, write python. Don't write transliterated C++.
 - Look into `argparse` to have your python program take arguments on the command line.
   - The tutorial available from the official documentation should be enough to get you what you need.
+- Instead of clang-format, the development container has a tool called black that can format python.
 
 ## Reminders
 - Name your file *wsuid*\_hwxtra02.py
